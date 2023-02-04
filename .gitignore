@@ -1,0 +1,7 @@
+*.creator
+*.includes
+*.files
+*.cxxflags
+*.cflags
+*.config
+genshin_lib
