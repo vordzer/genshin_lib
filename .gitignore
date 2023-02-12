@@ -4,4 +4,8 @@
 *.cxxflags
 *.cflags
 *.config
+*.user
 genshin_lib
+*.o
+lib/
+lib/*
