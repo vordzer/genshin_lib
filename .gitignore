@@ -5,7 +5,7 @@
 *.cflags
 *.config
 *.user
-genshin_lib
+static_test
 *.o
 lib/
 lib/*
