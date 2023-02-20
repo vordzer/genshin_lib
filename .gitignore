@@ -9,3 +9,6 @@ static_test
 *.o
 lib/
 lib/*
+src_lib/pers/*
+src_lib/pers
+pers_creator/pers_creator
