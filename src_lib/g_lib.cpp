@@ -1,12 +1,13 @@
 #include<iostream>
 #include<g_lib.h>
+#include<pers/diluc.h>
 
 namespace genshin_lib {
 
 //////////////////////////////////////////////////////////////
 //------------------------------------------------------------
 character::character(const std::string &n, const element e, const std::string &t)
-    : name(n), el(e), title(t)
+  : name(n), el(e), title(t)
 {
 }
 //------------------------------------------------------------
@@ -28,6 +29,11 @@ const std::string &character::get_element_str() const
 const std::string &character::get_title() const
 {
     return title;
+}
+//------------------------------------------------------------
+character *character::create_character(const std::string & )
+{
+    return new diluc();
 }
 //------------------------------------------------------------
 //////////////////////////////////////////////////////////////
